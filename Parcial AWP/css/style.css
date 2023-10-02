@@ -1,0 +1,123 @@
+/* INDEX */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.header__title{
+    text-align: center;
+    font-style: italic;
+    margin-left: auto;
+    padding-left: 40px;
+    font-size: 45px;
+    color: rgb(43, 43, 255);
+}
+
+.add__picture__btn{
+    margin-left: auto;
+    border-radius: 100%;
+    background-color: rgb(117, 228, 117);
+    
+}
+
+
+.add__picture__btn:hover{
+    background-color: rgb(0, 255, 0);
+}
+
+.add__picture__btn svg{
+    padding: 10px;
+}
+
+.reel__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgb(20, 16, 101);
+}
+
+.reel__card{
+    padding: 30px 10px 30px 10px;
+    background-color: rgb(20, 16, 101);
+    margin-bottom: 10px;
+}
+
+.card__title{
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+
+.card__datetime{
+    color: white;
+}
+
+img{
+    max-width: 400px;
+    height: fit-content;
+}
+
+/* CAMARA */
+.home__btn{
+    margin-left: auto;
+    border-radius: 100%;
+    background-color: rgb(0, 204, 255);
+}
+
+
+.camera__main{     
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(20, 16, 101);
+}
+
+.camera__main img{
+    margin: 5rem
+}
+
+.camera__main label{
+    color: white;
+    font-size:45px;
+}
+
+.camera__main input{
+    font-size: 25px;
+    margin:2rem;    
+    width: 20rem;
+    height: 2rem;
+}
+
+.post__btn{
+    font-size: 30px;
+    margin: 2rem;
+    background-color: rgb(15, 189, 15);
+    color: white;
+    border: none;
+    padding: .5rem 2rem .5rem 2rem;
+}
+
+.post__btn:hover{
+    opacity: 85%;
+}
+.cancel__btn{
+    font-size: 30px;
+    margin: 2rem;
+    background-color: rgb(189, 15, 15);
+    color: white;
+    border: none;
+    padding: .5rem 2rem .5rem 2rem;
+}
+.cancel__btn:hover{
+    opacity: 85%;
+}
